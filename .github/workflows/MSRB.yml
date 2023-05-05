@@ -134,8 +134,8 @@ jobs:
 # CHECK LOG_ACCOUNTS.TXT
 # HASTAG THIS STEP IF YOU DON'T WANT TO PRINT OUT THE LOG INTO GITHUB ACTION WORKFLOWS OUTPUT
 
-    - name: Check log after run
-      run: cat Logs_accounts.txt
+#    - name: Check log after run
+ #     run: cat Logs_accounts.txt
 
 # USE THIS IF YOU WANT TO COMMIT ALL FILES CHANGES TO THE REPO
 
@@ -150,13 +150,13 @@ jobs:
 # COMMIT LOG_ACCOUNTS.JSON TO YOUR REPO
 # HASTAG THIS IF YOU DON'T WANT IT
 
-    - name: Commit log_accounts.json
-      run: |
-        git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add Logs_accounts.txt
-          git commit -m "Upload Logs_accounts.txt"
-          git push -f
+ #   - name: Commit log_accounts.json
+#      run: |
+ #       git config --global user.name "GitHub Actions"
+   #       git config --global user.email "actions@github.com"
+     #     git add Logs_accounts.txt
+     #    git commit -m "Upload Logs_accounts.txt"
+       #   git push -f
 
 # DELETE WORKFLOWS WHICH ARE OLDER THAN ... SEC
 
