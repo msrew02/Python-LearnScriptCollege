@@ -26,7 +26,7 @@ env:
 # EDIT DEFAULT_COMMAND AND DEFAULT_RETRY_COMMAND IF YOU WANT ~
 # BUT DON'T REMOVE --SESSION IN DEFAULT_COMMAND AND DEFAULT_RETRY_COMMAND !!!
 
-  DEFAULT_COMMAND: timeout 3000 python ms_rewards_farmer.py --session --virtual-display --dont-check-for-updates --repeat-shopping --superfast --skip-unusual --error --no-images --on-finish exit --dont-check-internet 
+  DEFAULT_COMMAND: timeout 3000 python ms_rewards_farmer.py --session --virtual-display --dont-check-for-updates --repeat-shopping --superfast --skip-unusual --error --no-images --on-finish exit --dont-check-internet --discord https://discord.com/api/webhooks/1104002004713484319/exODc1QIqkvU88Kd2js2bWdlPdxYJ7H4JPdoTv8fvrI7oe1ODiESSAHdU4mhpC6cAQDq
   DEFAULT_RETRY_COMMAND: timeout 3000 python ms_rewards_farmer.py --session --virtual-display --dont-check-for-updates --repeat-shopping --superfast --skip-unusual --error --no-images --on-finish exit --dont-check-internet 
   HAS_SESSION: 1
 
